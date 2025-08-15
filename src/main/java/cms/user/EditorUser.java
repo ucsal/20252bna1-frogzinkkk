@@ -1,6 +1,6 @@
 package cms.user;
 
-public class EditorUser {
+public class EditorUser extends User {
 	private final int id;
 	private final String nome;
 	private final String email;

@@ -1,6 +1,6 @@
 package cms.user;
 
-public class AdminUser {
+public class AdminUser extends User {
 	private final int id;
 	private final String nome;
 	private final String email;
