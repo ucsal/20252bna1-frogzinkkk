@@ -20,4 +20,4 @@ jobs:
           cache: maven
 
       - name: run test
-        run: mvn test
+        run: mvn -q test
